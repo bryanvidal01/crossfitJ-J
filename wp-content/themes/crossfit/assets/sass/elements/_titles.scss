@@ -1,0 +1,28 @@
+.title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "commuters-sans", sans-serif;
+    letter-spacing: .05em;
+
+    &.medium{
+        font-size: 22px;
+        position: relative;
+
+        &:before{
+            content: '';
+            width: 7px;
+            height: 16px;
+            background: #917c3f;
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+}
+
+.text{
+    color: rgba(#FFF, .7);
+    font-weight: 100;
+    line-height: 22px;
+    font-size: 15px;
+}

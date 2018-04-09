@@ -1,0 +1,23 @@
+body{
+    .site-header{
+        position: absolute;
+        z-index: 3;
+    }
+}
+.site-header{
+    width: 100%;
+
+    .navigation{
+        margin-top: 50px;
+        li{
+            display: inline-block;
+            margin: 0 15px;
+            a{
+                color: #FFF;
+                font-weight: 100;
+                font-size: 14px;
+                letter-spacing: .05em;
+            }
+        }
+    }
+}

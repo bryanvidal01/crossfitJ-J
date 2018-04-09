@@ -1,0 +1,19 @@
+.button{
+    display: inline-block;
+    &.border{
+        border: 2px solid #917c3f;
+        padding: 22px 30px 20px;
+        @include transition(.4s);
+        font-size: 12px;
+        font-weight: 100;
+        text-transform: uppercase;
+        font-family: "commuters-sans", sans-serif;
+        color: #917c3f;
+        line-height: 0;
+
+        &:hover{
+            background: #917c3f;
+            color: #FFF;
+        }
+    }
+}
