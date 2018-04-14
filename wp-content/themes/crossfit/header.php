@@ -22,28 +22,9 @@
                     </a>
                 </div>
                 <div class="col-sm-8 text-right">
-                    <ul class="navigation">
-                        <li>
-                            <a href="#">
-                                Accueil
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                La box
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Tarifs
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Contacts
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="navigation">
+                        <?php echo wp_nav_menu(); ?>
+                    </div>
                 </div>
             </div>
         </div>

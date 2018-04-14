@@ -1,0 +1,324 @@
+{
+    "key": "group_5ace48b7e1a1e",
+    "title": "Single",
+    "fields": [
+        {
+            "key": "field_5ace4d9f8e5f4",
+            "label": "Image en t\u00eate",
+            "name": "image_hero",
+            "prefix": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5ace4dba8e5f5",
+            "label": "Texte en-t\u00eate",
+            "name": "text-hero",
+            "prefix": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_5ace48bacbb60",
+            "label": "Strates",
+            "name": "strates",
+            "prefix": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "button_label": "Ajouter un \u00e9l\u00e9ment",
+            "min": "",
+            "max": "",
+            "layouts": [
+                {
+                    "key": "5ace48c64fc1e",
+                    "name": "strate_text_left",
+                    "label": "Strate texte \u00e0 gauche + image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ace48dccbb61",
+                            "label": "Titre",
+                            "name": "title",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_5ace48e4cbb62",
+                            "label": "Texte",
+                            "name": "text",
+                            "prefix": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1
+                        },
+                        {
+                            "key": "field_5ace48ebcbb63",
+                            "label": "Image",
+                            "name": "image",
+                            "prefix": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5ace4905cbb64",
+                    "name": "strate_text_right",
+                    "label": "Strate texte \u00e0 droite + image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ace4905cbb65",
+                            "label": "Titre",
+                            "name": "title",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_5ace4905cbb66",
+                            "label": "Texte",
+                            "name": "text",
+                            "prefix": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1
+                        },
+                        {
+                            "key": "field_5ace4905cbb67",
+                            "label": "Image",
+                            "name": "image",
+                            "prefix": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5ace492dcbb68",
+                    "name": "strate_iframe",
+                    "label": "Strate iframe",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ace493bcbb6c",
+                            "label": "Iframe",
+                            "name": "iframe",
+                            "prefix": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": "wpautop",
+                            "readonly": 0,
+                            "disabled": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5ace4970cbb6d",
+                    "name": "strate_button",
+                    "label": "Strate bouton",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ace4979cbb6e",
+                            "label": "Lien du bouton",
+                            "name": "link_button",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_5ace4983cbb6f",
+                            "label": "Texte du bouton",
+                            "name": "text_button",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "pages\/page-single.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1523469779
+}

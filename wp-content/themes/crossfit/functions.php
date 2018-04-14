@@ -19,3 +19,5 @@ function bbx_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'bbx_enqueue_scripts' );
 
+add_image_size( '2000x1500', 2000, 1500, true);
+add_image_size( '600x400', 600, 400, true);

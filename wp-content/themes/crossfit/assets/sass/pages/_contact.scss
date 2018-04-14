@@ -1,0 +1,40 @@
+.contact-form{
+    margin-top: 60px;
+    input{
+        margin-bottom: 20px;
+    }
+
+    .button{
+        margin-top: 30px;
+    }
+
+    .error{
+        font-size: 13px;
+        font-weight: 300;
+        color: #be1c1c;
+        margin-bottom: 30px;
+    }
+
+    .success{
+        font-size: 13px;
+        font-weight: 300;
+        color: #3f9c35;
+        margin-bottom: 30px;
+    }
+}
+
+.map{
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    iframe{
+        width: 100%;
+    }
+}
+
+.adresse{
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}

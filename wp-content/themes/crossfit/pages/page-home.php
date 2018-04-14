@@ -4,16 +4,24 @@ Template Name: Homepage
 */
 get_header();
 get_post();
+$imageHeroID = get_field('hero-background');
+$imageHeroURL = wp_get_attachment_image_src($imageHeroID, '2000x1500');
+
+$imageCrossfitID = get_field('image_crossfit');
+$imageCrossfitURL = wp_get_attachment_image_src($imageCrossfitID, '600x400');
+
+$textIntro = get_field('hero-text');
+$textCrossfit = get_field('text-crossfit');
+$videoIframe = get_field('video_iframe');
 ?>
 
-<div class="hero-home" style="background-image: url('https://images.pexels.com/photos/685531/pexels-photo-685531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+<div class="hero-home" style="background-image: url('<?php echo $imageHeroURL[0]; ?>');">
     <div class="hero-home__content">
         <div class="title">
             Bienvenue chez crossfit j&j
         </div>
         <div class="text">
-            Un lieu unique et singulier destiné au CrossFit en plein coeur du
-            Val de Marne 94.
+            <?php echo $textIntro; ?>
         </div>
         <ul class="share-list">
             <li>
@@ -54,24 +62,24 @@ get_post();
 <div class="container">
     <div class="row strate-intro">
         <div class="col-sm-6">
-            <img src="https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+            <img src="<?php echo $imageCrossfitURL[0] ?>" alt="">
         </div>
         <div class="col-sm-6">
-            <div class="title medium">
-                Le CrossFit ... c'est quoi?
-            </div>
-            <p>
-                Le CrossFit est une méthode de préparation physique.  Notre objectif est de vous fournir une condition physique vaste et fonctionnelle.Par vaste nous entendons diversité.Par fonctionnelle,nous entendons transposable dans la vie quotidienne. Pour cela nous utilisons trois familles d'activités Les sports d'endurance,la gymnastique et l'haltérophilie dans des entrainements  constamment  variés effectués à haute intensité.
-            </p>
+            <div class="bloc-text-image">
+                <div class="title medium">
+                    Le CrossFit ... c'est quoi?
+                </div>
+                <?php echo $textCrossfit; ?>
 
-            <a href="#" class="button border">
-                Nous contacter
-            </a>
+                <a href="#" class="button border">
+                    Nous contacter
+                </a>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="strate-video-full">
+<div class="strate-video-full" style="background-image: url('<?php echo $imageHeroURL[0]; ?>');">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -79,7 +87,7 @@ get_post();
                     Chez nous
                 </div>
 
-                <iframe width="854" height="480" src="https://www.youtube.com/embed/YhmRTh1jD1U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <?php echo $videoIframe; ?>
             </div>
         </div>
     </div>

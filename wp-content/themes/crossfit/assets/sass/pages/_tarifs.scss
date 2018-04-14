@@ -1,0 +1,53 @@
+.container-tarifs{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    iframe{
+        height: 820px;
+        width: 100%;
+    }
+
+    .push-tarif{
+        background: #F7F7F7;
+        text-align: center;
+        min-height: 210px;
+        margin-top: 60px;
+        padding: 20px;
+        &__title{
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        &__price{
+            font-size: 30px;
+            font-weight: 600;
+            color: #917c3f;
+            margin-bottom: 10px;
+        }
+
+        &__description{
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 20px;
+            color: #777;
+        }
+
+        &.gold{
+            background: #917c3f;
+            color: #FFF;
+
+            .push-tarif__price{
+                color: #FFF;
+            }
+
+            .push-tarif__description{
+                color: rgba(#fff, .8);
+            }
+        }
+    }
+}
+
+.strate-tarifs-end{
+    margin-bottom: 120px;
+}

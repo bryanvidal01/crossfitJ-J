@@ -8959,6 +8959,20 @@ table {
   color: #FFF;
 }
 
+/* line 1, ../sass/elements/_forms.scss */
+input, textarea {
+  width: 100%;
+  padding: 13px;
+  font-size: 13px;
+  resize: none;
+  border: 1px solid #CCC;
+}
+
+/* line 8, ../sass/elements/_forms.scss */
+textarea {
+  height: 120px;
+}
+
 /* line 1, ../sass/_commons.scss */
 body {
   font-family: 'Montserrat', sans-serif;
@@ -9029,6 +9043,28 @@ p {
   background-size: cover;
 }
 /* line 7, ../sass/pages/_home.scss */
+.hero-home p {
+  font-weight: 100;
+}
+/* line 11, ../sass/pages/_home.scss */
+.hero-home .button.border {
+  border-color: #FFF;
+  color: #FFF;
+}
+/* line 15, ../sass/pages/_home.scss */
+.hero-home .button.border:hover {
+  background: #FFF;
+  color: #917c3f;
+}
+/* line 21, ../sass/pages/_home.scss */
+.hero-home--single {
+  height: 60vh;
+}
+/* line 24, ../sass/pages/_home.scss */
+.hero-home--single .button {
+  margin-top: 30px;
+}
+/* line 29, ../sass/pages/_home.scss */
 .hero-home:before {
   content: '';
   position: absolute;
@@ -9038,7 +9074,7 @@ p {
   width: 100%;
   height: 100%;
 }
-/* line 16, ../sass/pages/_home.scss */
+/* line 38, ../sass/pages/_home.scss */
 .hero-home__content {
   position: absolute;
   left: 50%;
@@ -9050,41 +9086,41 @@ p {
   color: #FFF;
   text-align: center;
 }
-/* line 24, ../sass/pages/_home.scss */
+/* line 46, ../sass/pages/_home.scss */
 .hero-home__content .title {
   margin-bottom: 10px;
 }
-/* line 28, ../sass/pages/_home.scss */
+/* line 50, ../sass/pages/_home.scss */
 .hero-home__content .text {
   max-width: 400px;
   display: block;
   margin: 0 auto;
 }
-/* line 34, ../sass/pages/_home.scss */
+/* line 56, ../sass/pages/_home.scss */
 .hero-home__content .share-list {
   margin-top: 30px;
 }
-/* line 37, ../sass/pages/_home.scss */
+/* line 59, ../sass/pages/_home.scss */
 .hero-home__content .share-list svg {
   fill: #FFF;
 }
-/* line 43, ../sass/pages/_home.scss */
+/* line 65, ../sass/pages/_home.scss */
 .hero-home .partner-logo {
   position: absolute;
   bottom: 30px;
   left: 30px;
   z-index: 30;
 }
-/* line 49, ../sass/pages/_home.scss */
+/* line 71, ../sass/pages/_home.scss */
 .hero-home .partner-logo li {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 52, ../sass/pages/_home.scss */
+/* line 74, ../sass/pages/_home.scss */
 .hero-home .partner-logo li img {
   height: 30px;
 }
-/* line 58, ../sass/pages/_home.scss */
+/* line 80, ../sass/pages/_home.scss */
 .hero-home .arrow {
   position: absolute;
   bottom: 30px;
@@ -9094,26 +9130,30 @@ p {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* line 64, ../sass/pages/_home.scss */
+/* line 86, ../sass/pages/_home.scss */
 .hero-home .arrow img {
   width: 20px;
 }
 
-/* line 71, ../sass/pages/_home.scss */
+/* line 93, ../sass/pages/_home.scss */
 .strate-intro {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-/* line 75, ../sass/pages/_home.scss */
+/* line 97, ../sass/pages/_home.scss */
 .strate-intro .title {
   margin-bottom: 30px;
 }
-/* line 79, ../sass/pages/_home.scss */
+/* line 101, ../sass/pages/_home.scss */
 .strate-intro .button {
   margin-top: 30px;
 }
+/* line 105, ../sass/pages/_home.scss */
+.strate-intro .bloc-text-image {
+  padding: 30px;
+}
 
-/* line 84, ../sass/pages/_home.scss */
+/* line 110, ../sass/pages/_home.scss */
 .strate-video-full {
   background-image: url("https://images.pexels.com/photos/685534/pexels-photo-685534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
@@ -9121,7 +9161,7 @@ p {
   position: relative;
   border-bottom: 2px solid #917c3f;
 }
-/* line 91, ../sass/pages/_home.scss */
+/* line 117, ../sass/pages/_home.scss */
 .strate-video-full:before {
   content: '';
   position: absolute;
@@ -9129,10 +9169,131 @@ p {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
 }
-/* line 101, ../sass/pages/_home.scss */
+/* line 127, ../sass/pages/_home.scss */
 .strate-video-full iframe {
   width: 100%;
   margin-top: 50px;
+  height: 680px;
+}
+
+/* line 1, ../sass/pages/_single.scss */
+.strate {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/* line 5, ../sass/pages/_single.scss */
+.strate .title {
+  margin-bottom: 20px;
+}
+/* line 9, ../sass/pages/_single.scss */
+.strate iframe {
+  width: 100%;
+}
+/* line 13, ../sass/pages/_single.scss */
+.strate .bloc-text-image {
+  padding: 40px;
+}
+
+/* line 1, ../sass/pages/_contact.scss */
+.contact-form {
+  margin-top: 60px;
+}
+/* line 3, ../sass/pages/_contact.scss */
+.contact-form input {
+  margin-bottom: 20px;
+}
+/* line 7, ../sass/pages/_contact.scss */
+.contact-form .button {
+  margin-top: 30px;
+}
+/* line 11, ../sass/pages/_contact.scss */
+.contact-form .error {
+  font-size: 13px;
+  font-weight: 300;
+  color: #be1c1c;
+  margin-bottom: 30px;
+}
+/* line 18, ../sass/pages/_contact.scss */
+.contact-form .success {
+  font-size: 13px;
+  font-weight: 300;
+  color: #3f9c35;
+  margin-bottom: 30px;
+}
+
+/* line 26, ../sass/pages/_contact.scss */
+.map {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+/* line 30, ../sass/pages/_contact.scss */
+.map iframe {
+  width: 100%;
+}
+
+/* line 35, ../sass/pages/_contact.scss */
+.adresse {
+  font-size: 13px;
+  line-height: 22px;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+/* line 1, ../sass/pages/_tarifs.scss */
+.container-tarifs {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* line 5, ../sass/pages/_tarifs.scss */
+.container-tarifs iframe {
+  height: 820px;
+  width: 100%;
+}
+/* line 10, ../sass/pages/_tarifs.scss */
+.container-tarifs .push-tarif {
+  background: #F7F7F7;
+  text-align: center;
+  min-height: 210px;
+  margin-top: 60px;
+  padding: 20px;
+}
+/* line 16, ../sass/pages/_tarifs.scss */
+.container-tarifs .push-tarif__title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+/* line 22, ../sass/pages/_tarifs.scss */
+.container-tarifs .push-tarif__price {
+  font-size: 30px;
+  font-weight: 600;
+  color: #917c3f;
+  margin-bottom: 10px;
+}
+/* line 29, ../sass/pages/_tarifs.scss */
+.container-tarifs .push-tarif__description {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #777;
+}
+/* line 36, ../sass/pages/_tarifs.scss */
+.container-tarifs .push-tarif.gold {
+  background: #917c3f;
+  color: #FFF;
+}
+/* line 40, ../sass/pages/_tarifs.scss */
+.container-tarifs .push-tarif.gold .push-tarif__price {
+  color: #FFF;
+}
+/* line 44, ../sass/pages/_tarifs.scss */
+.container-tarifs .push-tarif.gold .push-tarif__description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* line 51, ../sass/pages/_tarifs.scss */
+.strate-tarifs-end {
+  margin-bottom: 120px;
 }
